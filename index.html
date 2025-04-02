@@ -4,62 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naboo Base - Rebel Legion</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-        }
-        header {
-            background: #222;
-            padding: 20px;
-            font-size: 24px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        .gallery img {
-            width: 100%;
-            max-width: 300px;
-            margin: 10px;
-            border-radius: 10px;
-        }
-        footer {
-            background: #222;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <img src="images/naboo-base-logo.png" alt="Naboo Base Logo" class="logo">
         <h1>Welcome to Naboo Base</h1>
         <p>Rebel Legion - Star Wars Costuming Club</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     
-    <div class="container">
-        <h2>About Us</h2>
-        <p>Naboo Base is part of the Rebel Legion, a worldwide Star Wars costuming organization. We create screen-accurate costumes and participate in events to celebrate Star Wars!</p>
-    </div>
-
-    <div class="container">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <img src="image1.jpg" alt="Rebel Pilot Costume">
-            <img src="image2.jpg" alt="Padmé Amidala Costume">
-            <img src="image3.jpg" alt="Jedi Knight Costume">
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Naboo Base is part of the Rebel Legion, a worldwide Star Wars costuming organization. We create screen-accurate costumes and participate in events to celebrate Star Wars!</p>
         </div>
-    </div>
+    </section>
 
-    <div class="container">
-        <h2>Contact Us</h2>
-        <p>Interested in joining? Email us at <a href="mailto:contact@naboobase.com">contact@naboobase.com</a></p>
-    </div>
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="images/rebel-pilot.jpg" alt="Rebel Pilot Costume">
+                <img src="images/padme-costume.jpg" alt="Padmé Amidala Costume">
+                <img src="images/jedi-costume.jpg" alt="Jedi Knight Costume">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Interested in joining? Email us at <a href="mailto:contact@naboobase.com">contact@naboobase.com</a></p>
+        </div>
+    </section>
     
     <footer>
         <p>&copy; 2025 Naboo Base - Rebel Legion</p>
